@@ -7,8 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         ApiClient api = new ApiClient();
         int opcion = 0;
-        double amount = 0;
-        double conversion  = 0.0;
+        double amount = 0.0, conversion  = 0.0;
         String base ="", target ="";
 
         do {
